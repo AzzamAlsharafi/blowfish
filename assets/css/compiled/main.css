@@ -1616,6 +1616,10 @@ select {
   margin-left:-3rem
 }
 
+.-ml-2 {
+  margin-left:-0.5rem
+}
+
 .-mr-2 {
   margin-right:-0.5rem
 }
@@ -2161,6 +2165,16 @@ select {
 
 .gap-4 {
   gap:1rem
+}
+
+.gap-x-5 {
+  -moz-column-gap:1.25rem;
+       column-gap:1.25rem
+}
+
+.gap-x-3 {
+  -moz-column-gap:0.75rem;
+       column-gap:0.75rem
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -5494,12 +5508,16 @@ pre {
   margin-left:0.5rem
 }
 
-.ltr\:mr-14:where([dir="ltr"], [dir="ltr"] *) {
-  margin-right:3.5rem
+.ltr\:mr-1:where([dir="ltr"], [dir="ltr"] *) {
+  margin-right:0.25rem
 }
 
 .ltr\:mr-4:where([dir="ltr"], [dir="ltr"] *) {
   margin-right:1rem
+}
+
+.ltr\:mr-14:where([dir="ltr"], [dir="ltr"] *) {
+  margin-right:3.5rem
 }
 
 .ltr\:block:where([dir="ltr"], [dir="ltr"] *) {
@@ -5562,8 +5580,8 @@ pre {
   margin-right:-1.25rem
 }
 
-.rtl\:ml-14:where([dir="rtl"], [dir="rtl"] *) {
-  margin-left:3.5rem
+.rtl\:ml-1:where([dir="rtl"], [dir="rtl"] *) {
+  margin-left:0.25rem
 }
 
 .rtl\:ml-4:where([dir="rtl"], [dir="rtl"] *) {
@@ -5572,6 +5590,14 @@ pre {
 
 .rtl\:mr-2:where([dir="rtl"], [dir="rtl"] *) {
   margin-right:0.5rem
+}
+
+.rtl\:ml-2:where([dir="rtl"], [dir="rtl"] *) {
+  margin-left:0.5rem
+}
+
+.rtl\:ml-14:where([dir="rtl"], [dir="rtl"] *) {
+  margin-left:3.5rem
 }
 
 .rtl\:block:where([dir="rtl"], [dir="rtl"] *) {
